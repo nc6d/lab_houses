@@ -1,0 +1,227 @@
+h1 {
+  text-align: center;
+}
+span {
+  font-size: 50px;
+}
+.roof1 {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 50px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid red;
+  border-left: 150px solid transparent;
+}
+.wall1 {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border: 90px solid orange;
+  margin-bottom: 100px;
+}
+.space2 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.tube2 {
+  position: relative;
+  background-color: brown;
+  width: 30px;
+  height: 50px;
+  top: 160px;
+  left: 140px;
+}
+.roof2 {
+  position: relative;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  margin: auto;
+  border-top: 50px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid #5100bb;
+  border-left: 150px solid transparent;
+}
+.wall2 {
+  position: relative;
+  background-color: #f08080;
+  width: 250px;
+  height: 250px;
+  left: 125px;
+}
+.window2 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  bottom: 170px;
+  left: 270px;
+  background-color: #0ff;
+}
+.door2 {
+  position: relative;
+  width: 80px;
+  height: 170px;
+  background-color: #da6213;
+  bottom: 240px;
+  left: 150px;
+}
+.space3 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  left: 635px;
+  margin-bottom: 100px;
+}
+.tube3 {
+  position: absolute;
+  background-color: grey;
+  width: 30px;
+  height: 50px;
+  top: 125px;
+  left: 140px;
+}
+.roof3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+  left: 105px;
+  border-top: 50px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid #314707;
+  border-left: 150px solid transparent;
+}
+.wall3 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: #0d9225;
+  top: 200px;
+  left: 130px;
+}
+.window3 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #a2a2ec;
+  top: 250px;
+  right: 150px;
+}
+.door3 {
+  position: absolute;
+  width: 80px;
+  height: 170px;
+  background-color: maroon;
+  top: 280px;
+  left: 150px;
+}
+.door-window3 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #a2a2ec;
+  top: 300px;
+  left: 172px;
+}
+.title-fixed {
+  text-align: center;
+}
+.space4 {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  background-color: green;
+  color: #fff;
+  margin-bottom: 100px;
+  bottom: 0;
+}
+.roof4 {
+  position: fixed;
+  border-top: 50px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid maroon;
+  border-left: 150px solid transparent;
+  left: 105px;
+  top: 330px;
+  z-index: 2;
+}
+.tube4 {
+  position: fixed;
+  width: 30px;
+  height: 50px;
+  background-color: #ff4500;
+  top: 440px;
+  left: 150px;
+}
+.wall4 {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  background-color: #f3d10d;
+  bottom: 120px;
+  left: 130px;
+}
+.window4-left {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: #add8e6;
+  bottom: 250px;
+  left: 300px;
+}
+.window4-right {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: #add8e6;
+  bottom: 250px;
+  left: 160px;
+}
+.door4 {
+  position: fixed;
+  width: 70px;
+  height: 150px;
+  background-color: maroon;
+  bottom: 120px;
+  left: 220px;
+}
+.door-window4 {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background-color: #add8e6;
+  left: 238px;
+  bottom: 210px;
+}
+.space5 {
+  position: sticky;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 100px;
+  top: 295px;
+  margin: auto;
+  background-color: #ff0;
+}
+.roof5 {
+  position: sticky;
+  border-top: 50px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid maroon;
+  border-left: 150px solid transparent;
+}
+.wall5 {
+  position: sticky;
+  width: 400px;
+  height: 200px;
+  background-color: #ff4500;
+  margin: auto;
+}
